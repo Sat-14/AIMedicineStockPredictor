@@ -1,4 +1,4 @@
-# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Stock Predictor
+# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Management
 
 ## Overview
 MediTrend AI is an advanced AI-powered platform designed for pharmacies and medical suppliers. It predicts medicine demand based on past sales data, temperature, and seasonal trends, optimizing inventory management and improving supply chain efficiency.
@@ -52,6 +52,29 @@ This script:
 ✅ Launches FastAPI server
 
 
+
+## Using the Sales Data Endpoint
+### **Adding Sales Data**
+To add a new sale record and retrain the model, send a `POST` request to:
+```
+POST /add_sale/
+```
+#### **Request Format (JSON)**
+```json
+{
+    "medicine_name": "Paracetamol",
+    "quantity_sold": 100,
+    "temperature": 25.5,
+    "sale_time": "2025-03-21 14:30:00"
+}
+```
+#### **Response Format (JSON)**
+```json
+{
+    "message": "Sale data added successfully and model retrained."
+}
+```
+
 ## Future Enhancements
 - **Integration with External APIs** (weather, disease trends, supplier data)
 - **Advanced Time Series Forecasting** (LSTMs, ARIMA, Prophet)
@@ -60,16 +83,20 @@ This script:
 - **Expiry Date Alerts Via Email**
 - **Live Stock Updates**
 - **Historical Trend Analysis**
-- **Inventory Management** 
+- **Inventory Management**
+- **Integration with External APIs** (weather, disease trends, supplier data)
+- **Advanced Time Series Forecasting** (LSTMs, ARIMA, Prophet)
+- **User Authentication & Role-Based Access Control**
+- **Mobile App Integration**
+
+## Welcoming Contributors
+We encourage developers to contribute to this project by adding new features, improving accuracy, or enhancing the frontend UI. Feel free to fork the repository, submit pull requests, or suggest new ideas.
+
 ## Contributors
-- [SATWIK RAI]
+- [MANASH CHANRAWAL]
 - [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
 - [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
-- [MANASH CHANDRAWAL]
-  
-## Welcoming Contributors
-
-We encourage developers to contribute to this project by adding new features, improving accuracy, or enhancing the frontend UI. Feel free to fork the repository, submit pull requests, or suggest new ideas.
+- [SATWIK RAI]
 
 ## License
 MIT License
