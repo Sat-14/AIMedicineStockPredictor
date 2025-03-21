@@ -52,7 +52,19 @@ This script:
 - **Mobile App Integration**
 
 ## Contributors
-- [Your Name]
+# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Management
+
+## Overview
+MediTrend AI is an advanced AI-powered platform designed for pharmacies and medical suppliers. It predicts medicine demand based on past sales data, temperature, and seasonal trends, optimizing inventory management and improving supply chain efficiency.
+
+## Contributors
+- [Your Name](SATWIK RAI)
+- [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
+- [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
+- [Your Name](MANASH CHANDRAWAL)
+
+
+
 
 ## License
 MIT License
