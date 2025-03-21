@@ -51,21 +51,21 @@ This script:
 ✅ Trains the model
 ✅ Launches FastAPI server
 
-### **3. Access the API**
-- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- **ReDoc UI**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ## Future Enhancements
 - **Integration with External APIs** (weather, disease trends, supplier data)
 - **Advanced Time Series Forecasting** (LSTMs, ARIMA, Prophet)
 - **User Authentication & Role-Based Access Control**
 - **Mobile App Integration**
-
+- **Expiry Date Alerts Via Email**
+- **Live Stock Updates**
+- **Historical Trend Analysis**
+- **Inventory Management** 
 ## Contributors
-- [Your Name]
+- [SATWIK RAI]
 - [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
 - [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
-- [Your Name]
+- [MANASH CHANDRAWAL]
 
 ## License
 MIT License
