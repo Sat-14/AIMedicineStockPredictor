@@ -66,6 +66,10 @@ This script:
 - [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
 - [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
 - [MANASH CHANDRAWAL]
+  
+## Welcoming Contributors
+
+We encourage developers to contribute to this project by adding new features, improving accuracy, or enhancing the frontend UI. Feel free to fork the repository, submit pull requests, or suggest new ideas.
 
 ## License
 MIT License
