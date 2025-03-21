@@ -1,4 +1,4 @@
-# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Management
+# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Stock Predictor
 
 ## Overview
 MediTrend AI is an advanced AI-powered platform designed for pharmacies and medical suppliers. It predicts medicine demand based on past sales data, temperature, and seasonal trends, optimizing inventory management and improving supply chain efficiency.
