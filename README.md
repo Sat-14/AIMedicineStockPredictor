@@ -1,10 +1,18 @@
-# AIMedicineStockPredictor
 # MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Management
 
 ## Overview
 MediTrend AI is an advanced AI-powered platform designed for pharmacies and medical suppliers. It predicts medicine demand based on past sales data, temperature, and seasonal trends, optimizing inventory management and improving supply chain efficiency.
 
 ## Features
+
+### **Backend AI Algorithms Used**
+- **RandomForestRegressor**: A tree-based ensemble model that helps in predicting stock levels based on past trends.
+- **GradientBoostingRegressor**: Improves prediction accuracy by sequentially correcting previous errors.
+- **XGBoost**: An optimized gradient boosting library that enhances performance and efficiency.
+- **Voting Regressor**: Combines predictions from multiple models (RandomForest, GradientBoosting, and XGBoost) to improve overall accuracy.
+- **StandardScaler**: Normalizes input features to ensure consistent scaling, improving model stability.
+
+
 
 ### **Backend (FastAPI & MongoDB)**
 - **Sales Data Collection**: Records medicine sales with timestamps, temperature, and quantity sold.
@@ -43,7 +51,9 @@ This script:
 ✅ Trains the model
 ✅ Launches FastAPI server
 
-
+### **3. Access the API**
+- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- **ReDoc UI**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
 ## Future Enhancements
 - **Integration with External APIs** (weather, disease trends, supplier data)
@@ -52,19 +62,10 @@ This script:
 - **Mobile App Integration**
 
 ## Contributors
-# MediTrend AI - Predictive Analytics for Pharmaceutical Inventory Management
-
-## Overview
-MediTrend AI is an advanced AI-powered platform designed for pharmacies and medical suppliers. It predicts medicine demand based on past sales data, temperature, and seasonal trends, optimizing inventory management and improving supply chain efficiency.
-
-## Contributors
-- [Your Name](SATWIK RAI)
+- [Your Name]
 - [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
 - [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
-- [Your Name](MANASH CHANDRAWAL)
-
-
-
+- [Your Name]
 
 ## License
 MIT License
