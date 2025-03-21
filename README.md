@@ -52,7 +52,6 @@ This script:
 ✅ Launches FastAPI server
 
 
-
 ## Using the Sales Data Endpoint
 ### **Adding Sales Data**
 To add a new sale record and retrain the model, send a `POST` request to:
@@ -75,6 +74,20 @@ POST /add_sale/
 }
 ```
 
+## Sales Trend Percentage Calculation
+The sales trend percentage is calculated using the formula:
+
+```
+trend_percentage = ((recent_sales - past_sales) / past_sales) * 100
+```
+
+- **Recent Sales** = Total quantity sold in the most recent time period.
+- **Past Sales** = Total quantity sold in the earliest recorded time period.
+- **Trend Interpretation:**
+  - If `trend_percentage > 0`: Sales are increasing (**Up**).
+  - If `trend_percentage < 0`: Sales are decreasing (**Down**).
+  - If `trend_percentage = 0`: Sales are stable.
+
 ## Future Enhancements
 - **Integration with External APIs** (weather, disease trends, supplier data)
 - **Advanced Time Series Forecasting** (LSTMs, ARIMA, Prophet)
@@ -93,10 +106,10 @@ POST /add_sale/
 We encourage developers to contribute to this project by adding new features, improving accuracy, or enhancing the frontend UI. Feel free to fork the repository, submit pull requests, or suggest new ideas.
 
 ## Contributors
-- [MANASH CHANRAWAL]
+- [SATWIK RAI]
 - [Frontend Developer: Manash007-04](https://github.com/Manash007-04)
 - [Backend Developer: Sat-14](https://github.com/Sat-14/AIMedicineStockPredictor/commits?author=Sat-14)
-- [SATWIK RAI]
+- [MANASH CHANDRAWAL]
 
 ## License
 MIT License
